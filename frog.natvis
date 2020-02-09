@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="FrogGUID">
+    <DisplayString>
+{{
+{data1,Xb}-{data2,Xb}-{data3,Xb}-
+{unsigned short(((*(unsigned short*)(&amp;data4[0]))&lt;&lt;8)|(unsigned short)((*(unsigned short*)(&amp;data4[0]))&gt;&gt;8)),Xb}
+{unsigned short(((*(unsigned short*)(&amp;data4[2]))&lt;&lt;8)|(unsigned short)((*(unsigned short*)(&amp;data4[2]))&gt;&gt;8)),Xb}
+{unsigned short(((*(unsigned short*)(&amp;data4[4]))&lt;&lt;8)|(unsigned short)((*(unsigned short*)(&amp;data4[4]))&gt;&gt;8)),Xb}
+{unsigned short(((*(unsigned short*)(&amp;data4[6]))&lt;&lt;8)|(unsigned short)((*(unsigned short*)(&amp;data4[6]))&gt;&gt;8)),Xb}
+}}
+    </DisplayString>
+  </Type>
+</AutoVisualizer>
