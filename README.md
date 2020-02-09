@@ -1,2 +1,2 @@
 # natvis
-Native Debug Visualizer for data types in Visual Studio
+Native Debug Visualizer for custom data types in Visual Studio
